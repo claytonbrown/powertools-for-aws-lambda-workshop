@@ -1,0 +1,30 @@
+# Docs - https://docs.honeycomb.io/getting-data-in/otel-collector/
+receivers:
+  otlp:
+    protocols:
+      grpc:
+      http:
+
+exporters:
+  # https://dalejsalter.com/post/8afd46ad-7da2-4b2a-9cb5-9e5ae4fe6cc2/cdk-lambda-otel-honeycomb
+  # otlp/traces:
+  #   endpoint: api.honeycomb.io:443
+  #   headers:
+  #     'x-honeycomb-team': xxx
+
+  # https://aws-otel.github.io/docs/getting-started/x-ray
+  awsxray:
+    # you can add additional configuration here
+    # for example configure sending traces to AWS X-Ray in a specific region
+    region: ap-southeast-2
+
+  logging:
+    loglevel: debug
+
+service:
+  extensions: []
+  pipelines:
+    traces:
+      receivers: [otlp]
+      processors: []
+      exporters: [awsxray] # [otlp/traces]
