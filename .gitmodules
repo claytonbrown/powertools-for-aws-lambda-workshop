@@ -1,0 +1,3 @@
+[submodule "power-tuning-ui"]
+	path = power-tuning-ui
+	url = https://github.com/matteo-ronchetti/aws-lambda-power-tuning-ui.git

@@ -1,0 +1,1906 @@
+{
+    "Functions": [
+        {
+            "FunctionName": "api-endpoint-handler-dev",
+            "FunctionArn": "arn:aws:lambda:ap-southeast-2:825179952819:function:api-endpoint-handler-dev",
+            "Runtime": "nodejs20.x",
+            "Role": "arn:aws:iam::825179952819:role/powertoolsworkshopinfra-reportingservicefunctionsco-mXalen8pLRjV",
+            "Handler": "index.handler",
+            "CodeSize": 248747,
+            "Description": "",
+            "Timeout": 30,
+            "MemorySize": 256,
+            "LastModified": "2024-04-14T03:22:48.817+0000",
+            "CodeSha256": "/JegwA/WY4iullbUUzoMN0YlX6AvvRajS3P98HSl7bI=",
+            "Version": "$LATEST",
+            "Environment": {
+                "Variables": {
+                    "POWERTOOLS_LOGGER_LOG_EVENT": "TRUE",
+                    "POWERTOOLS_SERVICE_NAME": "media-processing-app",
+                    "POWERTOOLS_METRICS_NAMESPACE": "AnyCompany",
+                    "ENVIRONMENT": "dev",
+                    "POWERTOOLS_LOGGER_LOG_LEVEL": "DEBUG",
+                    "NODE_OPTIONS": "--enable-source-maps",
+                    "AWS_ACCOUNT_ID": "825179952819",
+                    "AWS_NODEJS_CONNECTION_REUSE_ENABLED": "1",
+                    "POWERTOOLS_LOGGER_SAMPLE_RATE": "1"
+                }
+            },
+            "TracingConfig": {
+                "Mode": "Active"
+            },
+            "RevisionId": "66beb0b6-f190-4536-ad47-3980929bfa76",
+            "PackageType": "Zip",
+            "Architectures": [
+                "x86_64"
+            ],
+            "EphemeralStorage": {
+                "Size": 512
+            },
+            "SnapStart": {
+                "ApplyOn": "None",
+                "OptimizationStatus": "Off"
+            },
+            "LoggingConfig": {
+                "LogFormat": "Text",
+                "LogGroup": "/aws/lambda/api-endpoint-handler-dev"
+            }
+        },
+        {
+            "FunctionName": "eventLogger",
+            "FunctionArn": "arn:aws:lambda:ap-southeast-2:825179952819:function:eventLogger",
+            "Runtime": "python3.10",
+            "Role": "arn:aws:iam::825179952819:role/service-role/eventLogger-role-bj6wl7vn",
+            "Handler": "lambda_function.lambda_handler",
+            "CodeSize": 579,
+            "Description": "",
+            "Timeout": 3,
+            "MemorySize": 128,
+            "LastModified": "2023-04-18T06:22:59.000+0000",
+            "CodeSha256": "UpMlC3akzepclt2dQKY67dLXfZoI58J2huWQmhE5tiM=",
+            "Version": "$LATEST",
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "RevisionId": "f0039a7b-e71d-42b2-8deb-b2fd277741a1",
+            "PackageType": "Zip",
+            "Architectures": [
+                "arm64"
+            ],
+            "EphemeralStorage": {
+                "Size": 512
+            },
+            "SnapStart": {
+                "ApplyOn": "None",
+                "OptimizationStatus": "Off"
+            },
+            "LoggingConfig": {
+                "LogFormat": "Text",
+                "LogGroup": "/aws/lambda/eventLogger"
+            }
+        },
+        {
+            "FunctionName": "redQueenSpellingBee",
+            "FunctionArn": "arn:aws:lambda:ap-southeast-2:825179952819:function:redQueenSpellingBee",
+            "Runtime": "python3.9",
+            "Role": "arn:aws:iam::825179952819:role/service-role/redQueenSpellingBee-role-bwow11ok",
+            "Handler": "lambda_function.lambda_handler",
+            "CodeSize": 658,
+            "Description": "",
+            "Timeout": 3,
+            "MemorySize": 128,
+            "LastModified": "2023-03-15T09:01:25.000+0000",
+            "CodeSha256": "AXQpjK19WWlDoFVbXOU3RdG5KkkgVob9yRxNVHixdvc=",
+            "Version": "$LATEST",
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "RevisionId": "98e5c67b-1d68-4caa-922a-5b047b270801",
+            "PackageType": "Zip",
+            "Architectures": [
+                "arm64"
+            ],
+            "EphemeralStorage": {
+                "Size": 512
+            },
+            "SnapStart": {
+                "ApplyOn": "None",
+                "OptimizationStatus": "Off"
+            },
+            "LoggingConfig": {
+                "LogFormat": "Text",
+                "LogGroup": "/aws/lambda/redQueenSpellingBee"
+            }
+        },
+        {
+            "FunctionName": "amplify-login-create-auth-challenge-a0bd7823",
+            "FunctionArn": "arn:aws:lambda:ap-southeast-2:825179952819:function:amplify-login-create-auth-challenge-a0bd7823",
+            "Runtime": "nodejs12.x",
+            "Role": "arn:aws:iam::825179952819:role/amplify-login-lambda-a0bd7823",
+            "Handler": "index.handler",
+            "CodeSize": 290,
+            "Description": "",
+            "Timeout": 15,
+            "MemorySize": 256,
+            "LastModified": "2021-05-03T06:53:46.639+0000",
+            "CodeSha256": "bshqHPjqqB/PMR70SaGi619g7GFHLAQH7Ew4lqf4LAM=",
+            "Version": "$LATEST",
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "RevisionId": "3e627045-891c-4f1a-a147-1d1728a0d6b6",
+            "PackageType": "Zip",
+            "Architectures": [
+                "x86_64"
+            ],
+            "EphemeralStorage": {
+                "Size": 512
+            },
+            "SnapStart": {
+                "ApplyOn": "None",
+                "OptimizationStatus": "Off"
+            },
+            "LoggingConfig": {
+                "LogFormat": "Text",
+                "LogGroup": "/aws/lambda/amplify-login-create-auth-challenge-a0bd7823"
+            }
+        },
+        {
+            "FunctionName": "RequestUnicorn",
+            "FunctionArn": "arn:aws:lambda:ap-southeast-2:825179952819:function:RequestUnicorn",
+            "Runtime": "nodejs10.x",
+            "Role": "arn:aws:iam::825179952819:role/WildRydesLambda",
+            "Handler": "index.handler",
+            "CodeSize": 1658,
+            "Description": "",
+            "Timeout": 3,
+            "MemorySize": 128,
+            "LastModified": "2020-07-22T03:57:43.783+0000",
+            "CodeSha256": "oQSEYTw0/C8EpuuiWkRqSRRWmxjz4xf6Kgd0V6ZbBZQ=",
+            "Version": "$LATEST",
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "RevisionId": "283d0db5-601e-4e9f-8166-dfc9d4971075",
+            "PackageType": "Zip",
+            "Architectures": [
+                "x86_64"
+            ],
+            "EphemeralStorage": {
+                "Size": 512
+            },
+            "SnapStart": {
+                "ApplyOn": "None",
+                "OptimizationStatus": "Off"
+            },
+            "LoggingConfig": {
+                "LogFormat": "Text",
+                "LogGroup": "/aws/lambda/RequestUnicorn"
+            }
+        },
+        {
+            "FunctionName": "amplify-login-define-auth-challenge-a0bd7823",
+            "FunctionArn": "arn:aws:lambda:ap-southeast-2:825179952819:function:amplify-login-define-auth-challenge-a0bd7823",
+            "Runtime": "nodejs12.x",
+            "Role": "arn:aws:iam::825179952819:role/amplify-login-lambda-a0bd7823",
+            "Handler": "index.handler",
+            "CodeSize": 575,
+            "Description": "",
+            "Timeout": 15,
+            "MemorySize": 256,
+            "LastModified": "2021-05-03T06:53:46.586+0000",
+            "CodeSha256": "i7QRTq33jJ/lLivF0rMxREJhYTOg/CE9V2Ss12gMuQ4=",
+            "Version": "$LATEST",
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "RevisionId": "339ad47c-0570-44f9-8dad-900550007a04",
+            "PackageType": "Zip",
+            "Architectures": [
+                "x86_64"
+            ],
+            "EphemeralStorage": {
+                "Size": 512
+            },
+            "SnapStart": {
+                "ApplyOn": "None",
+                "OptimizationStatus": "Off"
+            },
+            "LoggingConfig": {
+                "LogFormat": "Text",
+                "LogGroup": "/aws/lambda/amplify-login-define-auth-challenge-a0bd7823"
+            }
+        },
+        {
+            "FunctionName": "users-generator-dev",
+            "FunctionArn": "arn:aws:lambda:ap-southeast-2:825179952819:function:users-generator-dev",
+            "Runtime": "nodejs20.x",
+            "Role": "arn:aws:iam::825179952819:role/powertoolsworkshopinfra-frontendfunctionsconstructu-3RjA0lG8SmaZ",
+            "Handler": "index.handler",
+            "CodeSize": 251500,
+            "Description": "",
+            "Timeout": 60,
+            "MemorySize": 256,
+            "LastModified": "2024-04-14T03:22:54.619+0000",
+            "CodeSha256": "Orlb81HSMmB2rLAtjsD38DQPB4MLRAtGMZr8cdWtvlw=",
+            "Version": "$LATEST",
+            "Environment": {
+                "Variables": {
+                    "POWERTOOLS_LOGGER_LOG_EVENT": "TRUE",
+                    "POWERTOOLS_SERVICE_NAME": "media-processing-app",
+                    "DUMMY_PASSWORD": "ABCabc123456789!",
+                    "POWERTOOLS_METRICS_NAMESPACE": "AnyCompany",
+                    "ENVIRONMENT": "dev",
+                    "POWERTOOLS_LOGGER_LOG_LEVEL": "DEBUG",
+                    "NODE_OPTIONS": "--enable-source-maps",
+                    "AWS_ACCOUNT_ID": "825179952819",
+                    "AWS_NODEJS_CONNECTION_REUSE_ENABLED": "1",
+                    "COGNITO_USER_POOL_CLIENT_ID": "1bo3stap0qpp97dh21iksn1u8",
+                    "POWERTOOLS_LOGGER_SAMPLE_RATE": "1"
+                }
+            },
+            "TracingConfig": {
+                "Mode": "Active"
+            },
+            "RevisionId": "31e7497a-4cf3-4ece-ad5e-6fd4d1f228f3",
+            "PackageType": "Zip",
+            "Architectures": [
+                "x86_64"
+            ],
+            "EphemeralStorage": {
+                "Size": 512
+            },
+            "SnapStart": {
+                "ApplyOn": "None",
+                "OptimizationStatus": "Off"
+            },
+            "LoggingConfig": {
+                "LogFormat": "Text",
+                "LogGroup": "/aws/lambda/users-generator-dev"
+            }
+        },
+        {
+            "FunctionName": "powertoolsworkshopinfra-frontendDummyUsersProvider-lznJTaWg7lB4",
+            "FunctionArn": "arn:aws:lambda:ap-southeast-2:825179952819:function:powertoolsworkshopinfra-frontendDummyUsersProvider-lznJTaWg7lB4",
+            "Runtime": "nodejs18.x",
+            "Role": "arn:aws:iam::825179952819:role/powertoolsworkshopinfra-frontendDummyUsersProviderf-ZAqZ5xBf4VZ7",
+            "Handler": "framework.onEvent",
+            "CodeSize": 4328,
+            "Description": "AWS CDK resource provider framework - onEvent (powertoolsworkshopinfra/frontend/DummyUsersProvider)",
+            "Timeout": 900,
+            "MemorySize": 128,
+            "LastModified": "2024-04-14T03:22:58.633+0000",
+            "CodeSha256": "RipxoXkLlifFYuNgbPECMU3CY/1+NNDLcedQH6q8bdQ=",
+            "Version": "$LATEST",
+            "Environment": {
+                "Variables": {
+                    "USER_ON_EVENT_FUNCTION_ARN": "arn:aws:lambda:ap-southeast-2:825179952819:function:users-generator-dev"
+                }
+            },
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "RevisionId": "b3677810-329d-4cb2-a335-9d48e9d2c1dc",
+            "PackageType": "Zip",
+            "Architectures": [
+                "x86_64"
+            ],
+            "EphemeralStorage": {
+                "Size": 512
+            },
+            "SnapStart": {
+                "ApplyOn": "None",
+                "OptimizationStatus": "Off"
+            },
+            "LoggingConfig": {
+                "LogFormat": "Text",
+                "LogGroup": "/aws/lambda/powertoolsworkshopinfra-frontendDummyUsersProvider-lznJTaWg7lB4"
+            }
+        },
+        {
+            "FunctionName": "powertuner-powerTuner-9UUP3UW8BMFP-analyzer-mAnvWZ5ePz2p",
+            "FunctionArn": "arn:aws:lambda:ap-southeast-2:825179952819:function:powertuner-powerTuner-9UUP3UW8BMFP-analyzer-mAnvWZ5ePz2p",
+            "Runtime": "nodejs20.x",
+            "Role": "arn:aws:iam::825179952819:role/powertuner-powerTuner-9UUP3UW8BMFP-analyzerRole-pDEJqMaGrHng",
+            "Handler": "analyzer.handler",
+            "CodeSize": 11459,
+            "Description": "",
+            "Timeout": 10,
+            "MemorySize": 128,
+            "LastModified": "2024-04-14T03:30:35.587+0000",
+            "CodeSha256": "n5mYF9ALoeH3BJym2Y+w+IwymeFBAmscHi2BhHtfcmw=",
+            "Version": "$LATEST",
+            "Environment": {
+                "Variables": {
+                    "minRAM": "128",
+                    "defaultPowerValues": "128,256,512,1024,1536,3008",
+                    "baseCosts": "{\"x86_64\": {\"ap-east-1\":2.9e-9,\"af-south-1\":2.8e-9,\"me-south-1\":2.6e-9,\"eu-south-1\":2.4e-9,\"ap-northeast-3\":2.7e-9,\"cn-north-1\":0.0000000142,\"cn-northwest-1\":0.0000000142,\"default\":2.1e-9}, \"arm64\": {\"default\":1.7e-9}}",
+                    "sfCosts": "{\"default\": 0.000025,\"us-gov-west-1\": 0.00003,\"ap-northeast-2\": 0.0000271,\"eu-south-1\": 0.00002625,\"af-south-1\": 0.00002975,\"us-west-1\": 0.0000279,\"eu-west-3\": 0.0000297,\"ap-east-1\": 0.0000275,\"me-south-1\": 0.0000275,\"ap-south-1\": 0.0000285,\"us-gov-east-1\": 0.00003,\"sa-east-1\": 0.0000375,\"cn-north-1\":0.0001891,\"cn-northwest-1\":0.0001891}",
+                    "visualizationURL": "https://lambda-power-tuning.show/"
+                }
+            },
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "RevisionId": "78b7a08d-8d9f-4dfb-bd53-7ae62307b1c9",
+            "PackageType": "Zip",
+            "Architectures": [
+                "x86_64"
+            ],
+            "EphemeralStorage": {
+                "Size": 512
+            },
+            "SnapStart": {
+                "ApplyOn": "None",
+                "OptimizationStatus": "Off"
+            },
+            "LoggingConfig": {
+                "LogFormat": "Text",
+                "LogGroup": "/aws/lambda/powertuner-powerTuner-9UUP3UW8BMFP-analyzer-mAnvWZ5ePz2p"
+            }
+        },
+        {
+            "FunctionName": "cfn-guard-lambda",
+            "FunctionArn": "arn:aws:lambda:ap-southeast-2:825179952819:function:cfn-guard-lambda",
+            "Runtime": "provided",
+            "Role": "arn:aws:iam::825179952819:role/lambda_execution_cfnguard",
+            "Handler": "doesnt.matter",
+            "CodeSize": 2778419,
+            "Description": "",
+            "Timeout": 3,
+            "MemorySize": 128,
+            "LastModified": "2021-04-16T06:59:20.063+0000",
+            "CodeSha256": "HumlXCMEdsrzHQg3JepLjoGhYg9Fn5usUifNceXp/0I=",
+            "Version": "$LATEST",
+            "Environment": {
+                "Variables": {
+                    "RUST_BACKTRACE": "1"
+                }
+            },
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "RevisionId": "ae227b1b-597d-4a15-84b2-302378784798",
+            "PackageType": "Zip",
+            "Architectures": [
+                "x86_64"
+            ],
+            "EphemeralStorage": {
+                "Size": 512
+            },
+            "SnapStart": {
+                "ApplyOn": "None",
+                "OptimizationStatus": "Off"
+            },
+            "LoggingConfig": {
+                "LogFormat": "Text",
+                "LogGroup": "/aws/lambda/cfn-guard-lambda"
+            }
+        },
+        {
+            "FunctionName": "syd_admin_events",
+            "FunctionArn": "arn:aws:lambda:ap-southeast-2:825179952819:function:syd_admin_events",
+            "Runtime": "python3.7",
+            "Role": "arn:aws:iam::825179952819:role/service-role/syd_admin_events-role-sltyxcml",
+            "Handler": "lambda_function.lambda_handler",
+            "CodeSize": 299,
+            "Description": "",
+            "Timeout": 3,
+            "MemorySize": 128,
+            "LastModified": "2020-05-11T23:22:52.256+0000",
+            "CodeSha256": "LD0MjQ04TMan6oFyOz3Y3mJqsPxm9IEhtimXGaDlb8c=",
+            "Version": "$LATEST",
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "RevisionId": "312d8101-15b8-43ab-ba35-14d3811d3941",
+            "PackageType": "Zip",
+            "Architectures": [
+                "x86_64"
+            ],
+            "EphemeralStorage": {
+                "Size": 512
+            },
+            "SnapStart": {
+                "ApplyOn": "None",
+                "OptimizationStatus": "Off"
+            },
+            "LoggingConfig": {
+                "LogFormat": "Text",
+                "LogGroup": "/aws/lambda/syd_admin_events"
+            }
+        },
+        {
+            "FunctionName": "lambda-otel-test-helloworldfunction280C6FDC-36myWMqpuI9p",
+            "FunctionArn": "arn:aws:lambda:ap-southeast-2:825179952819:function:lambda-otel-test-helloworldfunction280C6FDC-36myWMqpuI9p",
+            "Runtime": "nodejs20.x",
+            "Role": "arn:aws:iam::825179952819:role/lambda-otel-test-helloworldfunctionServiceRole6902C-9AtN5kr1nrtj",
+            "Handler": "index.handler",
+            "CodeSize": 2946058,
+            "Description": "",
+            "Timeout": 3,
+            "MemorySize": 1024,
+            "LastModified": "2024-04-14T06:08:39.567+0000",
+            "CodeSha256": "SyU3/dKVrEEl++Imjn4Hqnojlvjt6I9PaMiO/BZUWTk=",
+            "Version": "$LATEST",
+            "Environment": {
+                "Variables": {
+                    "OTEL_SERVICE_NAME": "hello-world-service",
+                    "OPENTELEMETRY_COLLECTOR_CONFIG_FILE": "/var/task/collector.yaml",
+                    "AWS_LAMBDA_EXEC_WRAPPER": "/opt/otel-handler",
+                    "DDB_TABLE_NAME": "lambda-otel-test-exampletable2E04153B-11Q3KZO9MCBOZ",
+                    "AWS_NODEJS_CONNECTION_REUSE_ENABLED": "1",
+                    "OTEL_PROPAGATORS": "tracecontext"
+                }
+            },
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "RevisionId": "2c9ec758-4ef9-49dc-ac25-d6c3a8259c34",
+            "Layers": [
+                {
+                    "Arn": "arn:aws:lambda:ap-southeast-2:901920570463:layer:aws-otel-nodejs-arm64-ver-1-7-0:2",
+                    "CodeSize": 19851335
+                }
+            ],
+            "PackageType": "Zip",
+            "Architectures": [
+                "arm64"
+            ],
+            "EphemeralStorage": {
+                "Size": 512
+            },
+            "SnapStart": {
+                "ApplyOn": "None",
+                "OptimizationStatus": "Off"
+            },
+            "LoggingConfig": {
+                "LogFormat": "Text",
+                "LogGroup": "/aws/lambda/lambda-otel-test-helloworldfunction280C6FDC-36myWMqpuI9p"
+            }
+        },
+        {
+            "FunctionName": "s3InventoryProcessor",
+            "FunctionArn": "arn:aws:lambda:ap-southeast-2:825179952819:function:s3InventoryProcessor",
+            "Runtime": "python3.10",
+            "Role": "arn:aws:iam::825179952819:role/service-role/lambdaDevRole",
+            "Handler": "lambda_function.lambda_handler",
+            "CodeSize": 2728,
+            "Description": "",
+            "Timeout": 180,
+            "MemorySize": 128,
+            "LastModified": "2023-05-10T05:14:37.000+0000",
+            "CodeSha256": "4ucVP8Y+zTSve6Cz7wKOz1dAISJjr+3G8XP5YBS51ko=",
+            "Version": "$LATEST",
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "RevisionId": "23839409-955a-45d3-b900-a700ea2458e9",
+            "PackageType": "Zip",
+            "Architectures": [
+                "arm64"
+            ],
+            "EphemeralStorage": {
+                "Size": 512
+            },
+            "SnapStart": {
+                "ApplyOn": "None",
+                "OptimizationStatus": "Off"
+            },
+            "LoggingConfig": {
+                "LogFormat": "Text",
+                "LogGroup": "/aws/lambda/s3InventoryProcessor"
+            }
+        },
+        {
+            "FunctionName": "redQueenRouter",
+            "FunctionArn": "arn:aws:lambda:ap-southeast-2:825179952819:function:redQueenRouter",
+            "Runtime": "python3.9",
+            "Role": "arn:aws:iam::825179952819:role/service-role/redQueenRouter-role-szcdneol",
+            "Handler": "lambda_function.lambda_handler",
+            "CodeSize": 658,
+            "Description": "",
+            "Timeout": 3,
+            "MemorySize": 128,
+            "LastModified": "2023-03-15T11:13:57.000+0000",
+            "CodeSha256": "e2eb4fY7j8gfZNA0lCkbEXxsitfG3jjsYOerkvJMB9I=",
+            "Version": "$LATEST",
+            "Environment": {
+                "Variables": {
+                    "dch_bedtime_story": "redQueenStoryTime",
+                    "dch_spelling_attempt": "redQueenSpellingBee",
+                    "dch_music_dj": "redQueenMusicDJ",
+                    "dch_ubervilla": "redQueenUbervilla"
+                }
+            },
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "RevisionId": "36414bc5-65ff-4e53-8c5d-bb4c62ef1056",
+            "PackageType": "Zip",
+            "Architectures": [
+                "arm64"
+            ],
+            "EphemeralStorage": {
+                "Size": 512
+            },
+            "SnapStart": {
+                "ApplyOn": "None",
+                "OptimizationStatus": "Off"
+            },
+            "LoggingConfig": {
+                "LogFormat": "Text",
+                "LogGroup": "/aws/lambda/redQueenRouter"
+            }
+        },
+        {
+            "FunctionName": "amplify-login-verify-auth-challenge-a0bd7823",
+            "FunctionArn": "arn:aws:lambda:ap-southeast-2:825179952819:function:amplify-login-verify-auth-challenge-a0bd7823",
+            "Runtime": "nodejs12.x",
+            "Role": "arn:aws:iam::825179952819:role/amplify-login-lambda-a0bd7823",
+            "Handler": "index.handler",
+            "CodeSize": 771,
+            "Description": "",
+            "Timeout": 15,
+            "MemorySize": 256,
+            "LastModified": "2021-05-03T06:53:46.533+0000",
+            "CodeSha256": "1ARAbY4/ZYgF/n85byk+eP/9KSRpBms4NJyDqjObL1w=",
+            "Version": "$LATEST",
+            "Environment": {
+                "Variables": {
+                    "ENDPOINT": "https://uf9ojzar3j.execute-api.ap-southeast-2.amazonaws.com/prod"
+                }
+            },
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "RevisionId": "4a9d583b-2902-4079-95e2-6e185993fd6f",
+            "PackageType": "Zip",
+            "Architectures": [
+                "x86_64"
+            ],
+            "EphemeralStorage": {
+                "Size": 512
+            },
+            "SnapStart": {
+                "ApplyOn": "None",
+                "OptimizationStatus": "Off"
+            },
+            "LoggingConfig": {
+                "LogFormat": "Text",
+                "LogGroup": "/aws/lambda/amplify-login-verify-auth-challenge-a0bd7823"
+            }
+        },
+        {
+            "FunctionName": "redqueenBot",
+            "FunctionArn": "arn:aws:lambda:ap-southeast-2:825179952819:function:redqueenBot",
+            "Runtime": "python3.9",
+            "Role": "arn:aws:iam::825179952819:role/service-role/redqueenBot-role-dbsheeh8",
+            "Handler": "lambda_function.lambda_handler",
+            "CodeSize": 299,
+            "Description": "",
+            "Timeout": 3,
+            "MemorySize": 128,
+            "LastModified": "2023-03-14T22:09:55.300+0000",
+            "CodeSha256": "fI06ZlRH/KN6Ra3twvdRllUYaxv182Tjx0qNWNlKIhI=",
+            "Version": "$LATEST",
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "RevisionId": "2a0a180e-d047-42eb-91ed-090923475504",
+            "PackageType": "Zip",
+            "Architectures": [
+                "arm64"
+            ],
+            "EphemeralStorage": {
+                "Size": 512
+            },
+            "SnapStart": {
+                "ApplyOn": "None",
+                "OptimizationStatus": "Off"
+            },
+            "LoggingConfig": {
+                "LogFormat": "Text",
+                "LogGroup": "/aws/lambda/redqueenBot"
+            }
+        },
+        {
+            "FunctionName": "lexBookATrip",
+            "FunctionArn": "arn:aws:lambda:ap-southeast-2:825179952819:function:lexBookATrip",
+            "Runtime": "python3.8",
+            "Role": "arn:aws:iam::825179952819:role/service-role/lexBookATrip-role-h47qyffq",
+            "Handler": "lambda_function.lambda_handler",
+            "CodeSize": 4982,
+            "Description": "Book details of a visit, using Amazon Lex to perform natural language understanding",
+            "Timeout": 10,
+            "MemorySize": 128,
+            "LastModified": "2023-03-15T11:11:38.678+0000",
+            "CodeSha256": "NcFYAgUTyQq9AWbTmhKC62CbXOPIg7T3pxL3GzFveyA=",
+            "Version": "$LATEST",
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "RevisionId": "16a45a07-d9b1-4c2a-a5e1-5d9ef9573898",
+            "PackageType": "Zip",
+            "Architectures": [
+                "x86_64"
+            ],
+            "EphemeralStorage": {
+                "Size": 512
+            },
+            "SnapStart": {
+                "ApplyOn": "None",
+                "OptimizationStatus": "Off"
+            },
+            "LoggingConfig": {
+                "LogFormat": "Text",
+                "LogGroup": "/aws/lambda/lexBookATrip"
+            }
+        },
+        {
+            "FunctionName": "amplify-login-define-auth-challenge-73aa7c45",
+            "FunctionArn": "arn:aws:lambda:ap-southeast-2:825179952819:function:amplify-login-define-auth-challenge-73aa7c45",
+            "Runtime": "nodejs12.x",
+            "Role": "arn:aws:iam::825179952819:role/amplify-login-lambda-73aa7c45",
+            "Handler": "index.handler",
+            "CodeSize": 575,
+            "Description": "",
+            "Timeout": 15,
+            "MemorySize": 256,
+            "LastModified": "2021-05-03T05:50:02.533+0000",
+            "CodeSha256": "i7QRTq33jJ/lLivF0rMxREJhYTOg/CE9V2Ss12gMuQ4=",
+            "Version": "$LATEST",
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "RevisionId": "f80bbed8-b888-4e83-9f21-b53fe06ec806",
+            "PackageType": "Zip",
+            "Architectures": [
+                "x86_64"
+            ],
+            "EphemeralStorage": {
+                "Size": 512
+            },
+            "SnapStart": {
+                "ApplyOn": "None",
+                "OptimizationStatus": "Off"
+            },
+            "LoggingConfig": {
+                "LogFormat": "Text",
+                "LogGroup": "/aws/lambda/amplify-login-define-auth-challenge-73aa7c45"
+            }
+        },
+        {
+            "FunctionName": "MediaMetaDataExtractor",
+            "FunctionArn": "arn:aws:lambda:ap-southeast-2:825179952819:function:MediaMetaDataExtractor",
+            "Runtime": "python3.6",
+            "Role": "arn:aws:iam::825179952819:role/lambda_dynamo",
+            "Handler": "index.imagemeta_handler",
+            "CodeSize": 2276853,
+            "Description": "LambdaVision - image & video processing function",
+            "Timeout": 300,
+            "MemorySize": 1024,
+            "LastModified": "2020-09-17T02:03:36.046+0000",
+            "CodeSha256": "GoFxcpeJao6GrCzuSEVwzWCauA45jH6MWHyeqPqsCr8=",
+            "Version": "$LATEST",
+            "Environment": {
+                "Variables": {
+                    "AZUREVISION": "3fffdaac03084fa1811276c1f0ff8496",
+                    "GOOGLE_APPLICATION_CREDENTIALS": "/var/task/google-credentials.json"
+                }
+            },
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "RevisionId": "76103a55-f101-49fd-8b43-614d3974a687",
+            "PackageType": "Zip",
+            "Architectures": [
+                "x86_64"
+            ],
+            "EphemeralStorage": {
+                "Size": 512
+            },
+            "SnapStart": {
+                "ApplyOn": "None",
+                "OptimizationStatus": "Off"
+            },
+            "LoggingConfig": {
+                "LogFormat": "Text",
+                "LogGroup": "/aws/lambda/MediaMetaDataExtractor"
+            }
+        },
+        {
+            "FunctionName": "ImageOptimisationStack-BucketNotificationsHandler0-UpF5g5RVhU6e",
+            "FunctionArn": "arn:aws:lambda:ap-southeast-2:825179952819:function:ImageOptimisationStack-BucketNotificationsHandler0-UpF5g5RVhU6e",
+            "Runtime": "python3.9",
+            "Role": "arn:aws:iam::825179952819:role/ImageOptimisationStack-BucketNotificationsHandler05-zbo2c3t8wHr3",
+            "Handler": "index.handler",
+            "CodeSize": 1348,
+            "Description": "AWS CloudFormation handler for \"Custom::S3BucketNotifications\" resources (@aws-cdk/aws-s3)",
+            "Timeout": 300,
+            "MemorySize": 128,
+            "LastModified": "2024-01-08T01:53:25.710+0000",
+            "CodeSha256": "ntNSpXdMZQY4yqa0bEA9q0pMd1ZrJjJwfEp6jSSsn1o=",
+            "Version": "$LATEST",
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "RevisionId": "944f1e36-557f-421e-a09b-eb719e04344d",
+            "PackageType": "Zip",
+            "Architectures": [
+                "x86_64"
+            ],
+            "EphemeralStorage": {
+                "Size": 512
+            },
+            "SnapStart": {
+                "ApplyOn": "None",
+                "OptimizationStatus": "Off"
+            },
+            "LoggingConfig": {
+                "LogFormat": "Text",
+                "LogGroup": "/aws/lambda/ImageOptimisationStack-BucketNotificationsHandler0-UpF5g5RVhU6e"
+            }
+        },
+        {
+            "FunctionName": "IoTLambdaSensorResponse",
+            "FunctionArn": "arn:aws:lambda:ap-southeast-2:825179952819:function:IoTLambdaSensorResponse",
+            "Runtime": "python3.7",
+            "Role": "arn:aws:iam::825179952819:role/service-role/IoTLambdaSensorResponse-role-9mkg22ji",
+            "Handler": "lambda_function.lambda_handler",
+            "CodeSize": 831,
+            "Description": "",
+            "Timeout": 3,
+            "MemorySize": 128,
+            "LastModified": "2021-03-23T13:12:31.328+0000",
+            "CodeSha256": "ngOSYkfDrRT1sgDKdRGmhrU3FVbQ7Gl6HBaM/zrvPeY=",
+            "Version": "$LATEST",
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "RevisionId": "8c5beef4-97d3-477a-a99b-5685261e0508",
+            "PackageType": "Zip",
+            "Architectures": [
+                "x86_64"
+            ],
+            "EphemeralStorage": {
+                "Size": 512
+            },
+            "SnapStart": {
+                "ApplyOn": "None",
+                "OptimizationStatus": "Off"
+            },
+            "LoggingConfig": {
+                "LogFormat": "Text",
+                "LogGroup": "/aws/lambda/IoTLambdaSensorResponse"
+            }
+        },
+        {
+            "FunctionName": "powertoolsworkshopinfra-frontendauthconstructpresi-hEfb1Sv1Q0if",
+            "FunctionArn": "arn:aws:lambda:ap-southeast-2:825179952819:function:powertoolsworkshopinfra-frontendauthconstructpresi-hEfb1Sv1Q0if",
+            "Runtime": "nodejs20.x",
+            "Role": "arn:aws:iam::825179952819:role/powertoolsworkshopinfra-frontendauthconstructpresig-3hdfJ9LcgKdA",
+            "Handler": "index.handler",
+            "CodeSize": 250,
+            "Description": "",
+            "Timeout": 5,
+            "MemorySize": 128,
+            "LastModified": "2024-04-14T03:22:48.022+0000",
+            "CodeSha256": "9AophMKGR69zblbSlIqshttfK3vGmeixqc7jIbDzNnI=",
+            "Version": "$LATEST",
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "RevisionId": "92af45af-e4a7-485f-b541-c311eaa171b6",
+            "PackageType": "Zip",
+            "Architectures": [
+                "x86_64"
+            ],
+            "EphemeralStorage": {
+                "Size": 512
+            },
+            "SnapStart": {
+                "ApplyOn": "None",
+                "OptimizationStatus": "Off"
+            },
+            "LoggingConfig": {
+                "LogFormat": "Text",
+                "LogGroup": "/aws/lambda/powertoolsworkshopinfra-frontendauthconstructpresi-hEfb1Sv1Q0if"
+            }
+        },
+        {
+            "FunctionName": "powertoolsworkshopinfra-LogRetentionaae0aa3c5b4d4f-y7YA7IghWjal",
+            "FunctionArn": "arn:aws:lambda:ap-southeast-2:825179952819:function:powertoolsworkshopinfra-LogRetentionaae0aa3c5b4d4f-y7YA7IghWjal",
+            "Runtime": "nodejs18.x",
+            "Role": "arn:aws:iam::825179952819:role/powertoolsworkshopinfra-LogRetentionaae0aa3c5b4d4f8-O3HU198SILGr",
+            "Handler": "index.handler",
+            "CodeSize": 1531,
+            "Description": "",
+            "Timeout": 900,
+            "MemorySize": 128,
+            "LastModified": "2024-04-14T03:22:48.612+0000",
+            "CodeSha256": "Tpe7bQFxgft2B8WLoxDWNyxHnTWYfpQwVqOZYJjpRYQ=",
+            "Version": "$LATEST",
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "RevisionId": "74874bb5-5c7d-4387-b35e-bdde677faef7",
+            "PackageType": "Zip",
+            "Architectures": [
+                "x86_64"
+            ],
+            "EphemeralStorage": {
+                "Size": 512
+            },
+            "SnapStart": {
+                "ApplyOn": "None",
+                "OptimizationStatus": "Off"
+            },
+            "LoggingConfig": {
+                "LogFormat": "Text",
+                "LogGroup": "/aws/lambda/powertoolsworkshopinfra-LogRetentionaae0aa3c5b4d4f-y7YA7IghWjal"
+            }
+        },
+        {
+            "FunctionName": "mark-file-queued-dev",
+            "FunctionArn": "arn:aws:lambda:ap-southeast-2:825179952819:function:mark-file-queued-dev",
+            "Runtime": "nodejs20.x",
+            "Role": "arn:aws:iam::825179952819:role/powertoolsworkshopinfra-contenthubrepofunctionscons-M3huOYS3yo2H",
+            "Handler": "index.handler",
+            "CodeSize": 255536,
+            "Description": "",
+            "Timeout": 30,
+            "MemorySize": 256,
+            "LastModified": "2024-04-14T03:22:57.976+0000",
+            "CodeSha256": "bvbBQGa8lnG0zwB8cM9DvoOqyQJBNAUob4cdaacPWlA=",
+            "Version": "$LATEST",
+            "Environment": {
+                "Variables": {
+                    "POWERTOOLS_LOGGER_LOG_EVENT": "TRUE",
+                    "POWERTOOLS_SERVICE_NAME": "media-processing-app",
+                    "POWERTOOLS_METRICS_NAMESPACE": "AnyCompany",
+                    "ENVIRONMENT": "dev",
+                    "POWERTOOLS_LOGGER_LOG_LEVEL": "DEBUG",
+                    "APPSYNC_ENDPOINT": "https://jblbk3d4pzfltcittxibdnweai.appsync-api.ap-southeast-2.amazonaws.com/graphql",
+                    "NODE_OPTIONS": "--enable-source-maps",
+                    "AWS_ACCOUNT_ID": "825179952819",
+                    "AWS_NODEJS_CONNECTION_REUSE_ENABLED": "1",
+                    "TABLE_NAME_FILES": "media-processing-app-files-dev",
+                    "POWERTOOLS_LOGGER_SAMPLE_RATE": "1"
+                }
+            },
+            "TracingConfig": {
+                "Mode": "Active"
+            },
+            "RevisionId": "24c60264-6f41-4b36-8169-1d7d81c704dd",
+            "PackageType": "Zip",
+            "Architectures": [
+                "x86_64"
+            ],
+            "EphemeralStorage": {
+                "Size": 512
+            },
+            "SnapStart": {
+                "ApplyOn": "None",
+                "OptimizationStatus": "Off"
+            },
+            "LoggingConfig": {
+                "LogFormat": "Text",
+                "LogGroup": "/aws/lambda/mark-file-queued-dev"
+            }
+        },
+        {
+            "FunctionName": "powertuner-powerTuner-9UUP3UW8BMFP-initializer-MnKI9Vadbht9",
+            "FunctionArn": "arn:aws:lambda:ap-southeast-2:825179952819:function:powertuner-powerTuner-9UUP3UW8BMFP-initializer-MnKI9Vadbht9",
+            "Runtime": "nodejs20.x",
+            "Role": "arn:aws:iam::825179952819:role/powertuner-powerTuner-9UUP3UW8BMFP-initializerRole-bA1rOBSLj7yZ",
+            "Handler": "initializer.handler",
+            "CodeSize": 11459,
+            "Description": "",
+            "Timeout": 300,
+            "MemorySize": 128,
+            "LastModified": "2024-04-14T03:30:38.601+0000",
+            "CodeSha256": "n5mYF9ALoeH3BJym2Y+w+IwymeFBAmscHi2BhHtfcmw=",
+            "Version": "$LATEST",
+            "Environment": {
+                "Variables": {
+                    "minRAM": "128",
+                    "defaultPowerValues": "128,256,512,1024,1536,3008",
+                    "baseCosts": "{\"x86_64\": {\"ap-east-1\":2.9e-9,\"af-south-1\":2.8e-9,\"me-south-1\":2.6e-9,\"eu-south-1\":2.4e-9,\"ap-northeast-3\":2.7e-9,\"cn-north-1\":0.0000000142,\"cn-northwest-1\":0.0000000142,\"default\":2.1e-9}, \"arm64\": {\"default\":1.7e-9}}",
+                    "sfCosts": "{\"default\": 0.000025,\"us-gov-west-1\": 0.00003,\"ap-northeast-2\": 0.0000271,\"eu-south-1\": 0.00002625,\"af-south-1\": 0.00002975,\"us-west-1\": 0.0000279,\"eu-west-3\": 0.0000297,\"ap-east-1\": 0.0000275,\"me-south-1\": 0.0000275,\"ap-south-1\": 0.0000285,\"us-gov-east-1\": 0.00003,\"sa-east-1\": 0.0000375,\"cn-north-1\":0.0001891,\"cn-northwest-1\":0.0001891}",
+                    "visualizationURL": "https://lambda-power-tuning.show/"
+                }
+            },
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "RevisionId": "181dcf21-144f-4fda-aea2-e7072cb58d27",
+            "Layers": [
+                {
+                    "Arn": "arn:aws:lambda:ap-southeast-2:825179952819:layer:AWS-SDK-v3:2",
+                    "CodeSize": 12864
+                }
+            ],
+            "PackageType": "Zip",
+            "Architectures": [
+                "x86_64"
+            ],
+            "EphemeralStorage": {
+                "Size": 512
+            },
+            "SnapStart": {
+                "ApplyOn": "None",
+                "OptimizationStatus": "Off"
+            },
+            "LoggingConfig": {
+                "LogFormat": "Text",
+                "LogGroup": "/aws/lambda/powertuner-powerTuner-9UUP3UW8BMFP-initializer-MnKI9Vadbht9"
+            }
+        },
+        {
+            "FunctionName": "inventory_report_timing",
+            "FunctionArn": "arn:aws:lambda:ap-southeast-2:825179952819:function:inventory_report_timing",
+            "Runtime": "python3.8",
+            "Role": "arn:aws:iam::825179952819:role/service-role/inventory_report_timing-role-4ag0fwat",
+            "Handler": "lambda_function.lambda_handler",
+            "CodeSize": 758,
+            "Description": "Config",
+            "Timeout": 90,
+            "MemorySize": 10240,
+            "LastModified": "2022-11-18T06:50:55.000+0000",
+            "CodeSha256": "Cjnx4nL3ozbNLAq2qEqSQ2h1GrKk8hL8VPCqkflzXsg=",
+            "Version": "$LATEST",
+            "Environment": {
+                "Variables": {
+                    "VERSION_THRESHOLD": "5"
+                }
+            },
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "RevisionId": "e1f4c163-74d1-4c55-81e1-371247db06e8",
+            "PackageType": "Zip",
+            "Architectures": [
+                "arm64"
+            ],
+            "EphemeralStorage": {
+                "Size": 10240
+            },
+            "SnapStart": {
+                "ApplyOn": "None",
+                "OptimizationStatus": "Off"
+            },
+            "LoggingConfig": {
+                "LogFormat": "Text",
+                "LogGroup": "/aws/lambda/inventory_report_timing"
+            }
+        },
+        {
+            "FunctionName": "powertoolsworkshopinfra-BucketNotificationsHandler-dex9kTyGzRZ3",
+            "FunctionArn": "arn:aws:lambda:ap-southeast-2:825179952819:function:powertoolsworkshopinfra-BucketNotificationsHandler-dex9kTyGzRZ3",
+            "Runtime": "python3.9",
+            "Role": "arn:aws:iam::825179952819:role/powertoolsworkshopinfra-BucketNotificationsHandler0-hM7KNwWZOk4v",
+            "Handler": "index.handler",
+            "CodeSize": 1337,
+            "Description": "AWS CloudFormation handler for \"Custom::S3BucketNotifications\" resources (@aws-cdk/aws-s3)",
+            "Timeout": 300,
+            "MemorySize": 128,
+            "LastModified": "2024-04-14T03:22:48.457+0000",
+            "CodeSha256": "gumM2iVTeMoMr2BICVQXVO+nkTslmMNH8XqTS09JSZ8=",
+            "Version": "$LATEST",
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "RevisionId": "e21ea851-2d37-4467-aa13-3207e921e782",
+            "PackageType": "Zip",
+            "Architectures": [
+                "x86_64"
+            ],
+            "EphemeralStorage": {
+                "Size": 512
+            },
+            "SnapStart": {
+                "ApplyOn": "None",
+                "OptimizationStatus": "Off"
+            },
+            "LoggingConfig": {
+                "LogFormat": "Text",
+                "LogGroup": "/aws/lambda/powertoolsworkshopinfra-BucketNotificationsHandler-dex9kTyGzRZ3"
+            }
+        },
+        {
+            "FunctionName": "WildRydesStreamProcessor",
+            "FunctionArn": "arn:aws:lambda:ap-southeast-2:825179952819:function:WildRydesStreamProcessor",
+            "Runtime": "nodejs12.x",
+            "Role": "arn:aws:iam::825179952819:role/WildRydesStreamProcessorRole",
+            "Handler": "index.handler",
+            "CodeSize": 767,
+            "Description": "",
+            "Timeout": 60,
+            "MemorySize": 128,
+            "LastModified": "2020-07-22T05:46:06.091+0000",
+            "CodeSha256": "62RWDoupG7iSgqu9v21ZRN8AyoRlWfbtNjSAuCuRCtE=",
+            "Version": "$LATEST",
+            "Environment": {
+                "Variables": {
+                    "TABLE_NAME": "UnicornSensorData"
+                }
+            },
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "RevisionId": "1f6a80ec-d0a1-416d-9c44-6833623295d6",
+            "PackageType": "Zip",
+            "Architectures": [
+                "x86_64"
+            ],
+            "EphemeralStorage": {
+                "Size": 512
+            },
+            "SnapStart": {
+                "ApplyOn": "None",
+                "OptimizationStatus": "Off"
+            },
+            "LoggingConfig": {
+                "LogFormat": "Text",
+                "LogGroup": "/aws/lambda/WildRydesStreamProcessor"
+            }
+        },
+        {
+            "FunctionName": "amplify-login-verify-auth-challenge-73aa7c45",
+            "FunctionArn": "arn:aws:lambda:ap-southeast-2:825179952819:function:amplify-login-verify-auth-challenge-73aa7c45",
+            "Runtime": "nodejs12.x",
+            "Role": "arn:aws:iam::825179952819:role/amplify-login-lambda-73aa7c45",
+            "Handler": "index.handler",
+            "CodeSize": 771,
+            "Description": "",
+            "Timeout": 15,
+            "MemorySize": 256,
+            "LastModified": "2021-05-03T05:50:02.475+0000",
+            "CodeSha256": "1ARAbY4/ZYgF/n85byk+eP/9KSRpBms4NJyDqjObL1w=",
+            "Version": "$LATEST",
+            "Environment": {
+                "Variables": {
+                    "ENDPOINT": "https://uf9ojzar3j.execute-api.ap-southeast-2.amazonaws.com/prod"
+                }
+            },
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "RevisionId": "a06aca8e-0efc-42ce-be4b-09b4137fa502",
+            "PackageType": "Zip",
+            "Architectures": [
+                "x86_64"
+            ],
+            "EphemeralStorage": {
+                "Size": 512
+            },
+            "SnapStart": {
+                "ApplyOn": "None",
+                "OptimizationStatus": "Off"
+            },
+            "LoggingConfig": {
+                "LogFormat": "Text",
+                "LogGroup": "/aws/lambda/amplify-login-verify-auth-challenge-73aa7c45"
+            }
+        },
+        {
+            "FunctionName": "amplify-login-create-auth-challenge-73aa7c45",
+            "FunctionArn": "arn:aws:lambda:ap-southeast-2:825179952819:function:amplify-login-create-auth-challenge-73aa7c45",
+            "Runtime": "nodejs12.x",
+            "Role": "arn:aws:iam::825179952819:role/amplify-login-lambda-73aa7c45",
+            "Handler": "index.handler",
+            "CodeSize": 290,
+            "Description": "",
+            "Timeout": 15,
+            "MemorySize": 256,
+            "LastModified": "2021-05-03T05:50:02.603+0000",
+            "CodeSha256": "bshqHPjqqB/PMR70SaGi619g7GFHLAQH7Ew4lqf4LAM=",
+            "Version": "$LATEST",
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "RevisionId": "966e18a6-45bf-4fbe-8f43-765437b9481e",
+            "PackageType": "Zip",
+            "Architectures": [
+                "x86_64"
+            ],
+            "EphemeralStorage": {
+                "Size": 512
+            },
+            "SnapStart": {
+                "ApplyOn": "None",
+                "OptimizationStatus": "Off"
+            },
+            "LoggingConfig": {
+                "LogFormat": "Text",
+                "LogGroup": "/aws/lambda/amplify-login-create-auth-challenge-73aa7c45"
+            }
+        },
+        {
+            "FunctionName": "amplify-login-custom-message-73aa7c45",
+            "FunctionArn": "arn:aws:lambda:ap-southeast-2:825179952819:function:amplify-login-custom-message-73aa7c45",
+            "Runtime": "nodejs12.x",
+            "Role": "arn:aws:iam::825179952819:role/amplify-login-lambda-73aa7c45",
+            "Handler": "index.handler",
+            "CodeSize": 937,
+            "Description": "",
+            "Timeout": 15,
+            "MemorySize": 256,
+            "LastModified": "2021-05-03T05:50:02.661+0000",
+            "CodeSha256": "55UtvMOxDrLWCSH/lONSAF161Ii7AvTU0nvsl2elUGg=",
+            "Version": "$LATEST",
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "RevisionId": "d70d2fee-bc52-4416-8e20-b906b39946db",
+            "PackageType": "Zip",
+            "Architectures": [
+                "x86_64"
+            ],
+            "EphemeralStorage": {
+                "Size": 512
+            },
+            "SnapStart": {
+                "ApplyOn": "None",
+                "OptimizationStatus": "Off"
+            },
+            "LoggingConfig": {
+                "LogFormat": "Text",
+                "LogGroup": "/aws/lambda/amplify-login-custom-message-73aa7c45"
+            }
+        },
+        {
+            "FunctionName": "clean-deleted-files-dev",
+            "FunctionArn": "arn:aws:lambda:ap-southeast-2:825179952819:function:clean-deleted-files-dev",
+            "Runtime": "nodejs20.x",
+            "Role": "arn:aws:iam::825179952819:role/powertoolsworkshopinfra-contenthubrepofunctionscons-lrNg42CpyAPq",
+            "Handler": "index.handler",
+            "CodeSize": 248640,
+            "Description": "",
+            "Timeout": 30,
+            "MemorySize": 256,
+            "LastModified": "2024-04-14T03:22:49.065+0000",
+            "CodeSha256": "PeIWgDA7MYo0U0DnfFr70drHCVe7I62ljkKe2+T9ODY=",
+            "Version": "$LATEST",
+            "Environment": {
+                "Variables": {
+                    "POWERTOOLS_LOGGER_LOG_EVENT": "TRUE",
+                    "POWERTOOLS_SERVICE_NAME": "media-processing-app",
+                    "POWERTOOLS_METRICS_NAMESPACE": "AnyCompany",
+                    "ENVIRONMENT": "dev",
+                    "POWERTOOLS_LOGGER_LOG_LEVEL": "DEBUG",
+                    "NODE_OPTIONS": "--enable-source-maps",
+                    "AWS_ACCOUNT_ID": "825179952819",
+                    "AWS_NODEJS_CONNECTION_REUSE_ENABLED": "1",
+                    "TABLE_NAME_FILES": "media-processing-app-files-dev",
+                    "POWERTOOLS_LOGGER_SAMPLE_RATE": "1"
+                }
+            },
+            "TracingConfig": {
+                "Mode": "Active"
+            },
+            "RevisionId": "98c1678d-f0ad-456b-b770-53e27b0fa79e",
+            "PackageType": "Zip",
+            "Architectures": [
+                "x86_64"
+            ],
+            "EphemeralStorage": {
+                "Size": 512
+            },
+            "SnapStart": {
+                "ApplyOn": "None",
+                "OptimizationStatus": "Off"
+            },
+            "LoggingConfig": {
+                "LogFormat": "Text",
+                "LogGroup": "/aws/lambda/clean-deleted-files-dev"
+            }
+        },
+        {
+            "FunctionName": "ImageOptimisationStack-MultimediaThumnbnailLambdaD-AW250FUwBDO8",
+            "FunctionArn": "arn:aws:lambda:ap-southeast-2:825179952819:function:ImageOptimisationStack-MultimediaThumnbnailLambdaD-AW250FUwBDO8",
+            "Runtime": "nodejs18.x",
+            "Role": "arn:aws:iam::825179952819:role/ImageOptimisationStack-MultimediaThumnbnailLambdaSe-RYXwoDkseQxt",
+            "Handler": "index.handler",
+            "CodeSize": 6414376,
+            "Description": "",
+            "Timeout": 300,
+            "MemorySize": 10240,
+            "LastModified": "2024-01-09T06:34:09.000+0000",
+            "CodeSha256": "osrvN+jH2PH3k2tz5sJGC5+DD0Kk3NhVIdap06bF0LA=",
+            "Version": "$LATEST",
+            "VpcConfig": {
+                "SubnetIds": [],
+                "SecurityGroupIds": [],
+                "VpcId": "",
+                "Ipv6AllowedForDualStack": false
+            },
+            "Environment": {
+                "Variables": {
+                    "CONTENT_BUCKET": "imageoptimisationstack-multimediacontentbucketc62d-ohhwnleem5ic",
+                    "AWS_NODEJS_CONNECTION_REUSE_ENABLED": "1"
+                }
+            },
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "RevisionId": "d814452b-d1ad-47ed-a8c9-cd6011ca9216",
+            "PackageType": "Zip",
+            "Architectures": [
+                "arm64"
+            ],
+            "EphemeralStorage": {
+                "Size": 512
+            },
+            "SnapStart": {
+                "ApplyOn": "None",
+                "OptimizationStatus": "Off"
+            },
+            "LoggingConfig": {
+                "LogFormat": "Text",
+                "LogGroup": "/aws/lambda/ImageOptimisationStack-MultimediaThumnbnailLambdaD-AW250FUwBDO8"
+            }
+        },
+        {
+            "FunctionName": "amplify-login-custom-message-a0bd7823",
+            "FunctionArn": "arn:aws:lambda:ap-southeast-2:825179952819:function:amplify-login-custom-message-a0bd7823",
+            "Runtime": "nodejs12.x",
+            "Role": "arn:aws:iam::825179952819:role/amplify-login-lambda-a0bd7823",
+            "Handler": "index.handler",
+            "CodeSize": 937,
+            "Description": "",
+            "Timeout": 15,
+            "MemorySize": 256,
+            "LastModified": "2021-05-03T06:53:46.700+0000",
+            "CodeSha256": "55UtvMOxDrLWCSH/lONSAF161Ii7AvTU0nvsl2elUGg=",
+            "Version": "$LATEST",
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "RevisionId": "914360fa-531f-4116-af8e-a1d7d66eb346",
+            "PackageType": "Zip",
+            "Architectures": [
+                "x86_64"
+            ],
+            "EphemeralStorage": {
+                "Size": 512
+            },
+            "SnapStart": {
+                "ApplyOn": "None",
+                "OptimizationStatus": "Off"
+            },
+            "LoggingConfig": {
+                "LogFormat": "Text",
+                "LogGroup": "/aws/lambda/amplify-login-custom-message-a0bd7823"
+            }
+        },
+        {
+            "FunctionName": "cfn-guard-rulegen-lambda",
+            "FunctionArn": "arn:aws:lambda:ap-southeast-2:825179952819:function:cfn-guard-rulegen-lambda",
+            "Runtime": "provided",
+            "Role": "arn:aws:iam::825179952819:role/lambda_execution_cfnguard",
+            "Handler": "doesnt.matter",
+            "CodeSize": 2218276,
+            "Description": "",
+            "Timeout": 3,
+            "MemorySize": 128,
+            "LastModified": "2021-04-16T07:02:39.874+0000",
+            "CodeSha256": "rs/0EuinoZfmcxiGP6+sbA4l0rASguWQ9mupQJeu5mk=",
+            "Version": "$LATEST",
+            "Environment": {
+                "Variables": {
+                    "RUST_BACKTRACE": "1"
+                }
+            },
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "RevisionId": "d0b8a007-dac2-4b43-9a2c-67c65001aa43",
+            "PackageType": "Zip",
+            "Architectures": [
+                "x86_64"
+            ],
+            "EphemeralStorage": {
+                "Size": 512
+            },
+            "SnapStart": {
+                "ApplyOn": "None",
+                "OptimizationStatus": "Off"
+            },
+            "LoggingConfig": {
+                "LogFormat": "Text",
+                "LogGroup": "/aws/lambda/cfn-guard-rulegen-lambda"
+            }
+        },
+        {
+            "FunctionName": "IndexFaces-FamilyFace-Recognition-Service",
+            "FunctionArn": "arn:aws:lambda:ap-southeast-2:825179952819:function:IndexFaces-FamilyFace-Recognition-Service",
+            "Runtime": "python2.7",
+            "Role": "arn:aws:iam::825179952819:role/FamilyFace-Recognition-Service-LambdaExecutionRole-11LD7WPM97H9K",
+            "Handler": "index.lambda_handler",
+            "CodeSize": 981,
+            "Description": "Triggered by S3, indexes faces against a collection in Amazon Rekognition",
+            "Timeout": 5,
+            "MemorySize": 128,
+            "LastModified": "2020-01-19T07:59:15.442+0000",
+            "CodeSha256": "G9ep7IfKBElEsPuw2DuDGJArQT8czmk0qo2hRvg54vI=",
+            "Version": "$LATEST",
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "RevisionId": "9928b451-7cf7-4313-826d-52370d77fc42",
+            "PackageType": "Zip",
+            "Architectures": [
+                "x86_64"
+            ],
+            "EphemeralStorage": {
+                "Size": 512
+            },
+            "SnapStart": {
+                "ApplyOn": "None",
+                "OptimizationStatus": "Off"
+            },
+            "LoggingConfig": {
+                "LogFormat": "Text",
+                "LogGroup": "/aws/lambda/IndexFaces-FamilyFace-Recognition-Service"
+            }
+        },
+        {
+            "FunctionName": "dyndns53_lambda_py27",
+            "FunctionArn": "arn:aws:lambda:ap-southeast-2:825179952819:function:dyndns53_lambda_py27",
+            "Runtime": "python3.6",
+            "Role": "arn:aws:iam::825179952819:role/service-role/dyndns53_lambda_py27-role-yfc6rgsi",
+            "Handler": "lambda_function.lambda_handler",
+            "CodeSize": 2309,
+            "Description": "dyndnsR53",
+            "Timeout": 15,
+            "MemorySize": 128,
+            "LastModified": "2020-05-12T02:19:02.786+0000",
+            "CodeSha256": "5vLOZZgEH54VMdYmTixapebOeklpAuRkGiqv0bwHCQo=",
+            "Version": "$LATEST",
+            "VpcConfig": {
+                "SubnetIds": [],
+                "SecurityGroupIds": [],
+                "VpcId": "",
+                "Ipv6AllowedForDualStack": false
+            },
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "RevisionId": "313e4347-a574-40e1-97b7-47000561e47a",
+            "PackageType": "Zip",
+            "Architectures": [
+                "x86_64"
+            ],
+            "EphemeralStorage": {
+                "Size": 512
+            },
+            "SnapStart": {
+                "ApplyOn": "None",
+                "OptimizationStatus": "Off"
+            },
+            "LoggingConfig": {
+                "LogFormat": "Text",
+                "LogGroup": "/aws/lambda/dyndns53_lambda_py27"
+            }
+        },
+        {
+            "FunctionName": "kinesis_scrapy_transformation",
+            "FunctionArn": "arn:aws:lambda:ap-southeast-2:825179952819:function:kinesis_scrapy_transformation",
+            "Runtime": "nodejs12.x",
+            "Role": "arn:aws:iam::825179952819:role/service-role/kinesis_scrapy_transformation-role-42rg3mef",
+            "Handler": "index.handler",
+            "CodeSize": 386,
+            "Description": "An Amazon Kinesis Firehose stream processor that accesses the records in the input and returns them with a processing status.",
+            "Timeout": 303,
+            "MemorySize": 128,
+            "LastModified": "2022-06-05T07:40:49.000+0000",
+            "CodeSha256": "fiFIe4tiOkgXUCEPZw8yxFF1sQuBC6BXsdG+WwCXmwo=",
+            "Version": "$LATEST",
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "RevisionId": "c6b97fe6-10ca-433a-b7d0-024a43b49272",
+            "PackageType": "Zip",
+            "Architectures": [
+                "x86_64"
+            ],
+            "EphemeralStorage": {
+                "Size": 512
+            },
+            "SnapStart": {
+                "ApplyOn": "None",
+                "OptimizationStatus": "Off"
+            },
+            "LoggingConfig": {
+                "LogFormat": "Text",
+                "LogGroup": "/aws/lambda/kinesis_scrapy_transformation"
+            }
+        },
+        {
+            "FunctionName": "rustynails",
+            "FunctionArn": "arn:aws:lambda:ap-southeast-2:825179952819:function:rustynails",
+            "Runtime": "provided",
+            "Role": "arn:aws:iam::825179952819:role/lambda-executionrole-gallery",
+            "Handler": "doesnt.matter",
+            "CodeSize": 1713810,
+            "Description": "",
+            "Timeout": 3,
+            "MemorySize": 128,
+            "LastModified": "2021-04-09T23:46:14.310+0000",
+            "CodeSha256": "o0aZD5sMRtMKy8REuKtkWG3ZWPk86f33lZaal2a2X9o=",
+            "Version": "$LATEST",
+            "Environment": {
+                "Variables": {
+                    "RUST_BACKTRACE": "1"
+                }
+            },
+            "TracingConfig": {
+                "Mode": "Active"
+            },
+            "RevisionId": "0a71f160-e15b-40f5-a317-856760262207",
+            "PackageType": "Zip",
+            "Architectures": [
+                "x86_64"
+            ],
+            "EphemeralStorage": {
+                "Size": 512
+            },
+            "SnapStart": {
+                "ApplyOn": "None",
+                "OptimizationStatus": "Off"
+            },
+            "LoggingConfig": {
+                "LogFormat": "Text",
+                "LogGroup": "/aws/lambda/rustynails"
+            }
+        },
+        {
+            "FunctionName": "get-presigned-upload-url-dev",
+            "FunctionArn": "arn:aws:lambda:ap-southeast-2:825179952819:function:get-presigned-upload-url-dev",
+            "Runtime": "nodejs20.x",
+            "Role": "arn:aws:iam::825179952819:role/powertoolsworkshopinfra-contenthubrepofunctionscons-up8KAybrC0Yc",
+            "Handler": "index.handler",
+            "CodeSize": 254934,
+            "Description": "",
+            "Timeout": 30,
+            "MemorySize": 256,
+            "LastModified": "2024-04-14T03:22:55.473+0000",
+            "CodeSha256": "Q7VUxjd1jfaFteVaQBcBK2ZrTayxPIhi7F0Zn5ibkS0=",
+            "Version": "$LATEST",
+            "Environment": {
+                "Variables": {
+                    "POWERTOOLS_LOGGER_LOG_EVENT": "TRUE",
+                    "POWERTOOLS_SERVICE_NAME": "media-processing-app",
+                    "BUCKET_NAME_FILES": "media-files-825179952819-dev",
+                    "POWERTOOLS_METRICS_NAMESPACE": "AnyCompany",
+                    "ENVIRONMENT": "dev",
+                    "POWERTOOLS_LOGGER_LOG_LEVEL": "DEBUG",
+                    "NODE_OPTIONS": "--enable-source-maps",
+                    "AWS_ACCOUNT_ID": "825179952819",
+                    "AWS_NODEJS_CONNECTION_REUSE_ENABLED": "1",
+                    "TABLE_NAME_FILES": "media-processing-app-files-dev",
+                    "POWERTOOLS_LOGGER_SAMPLE_RATE": "1"
+                }
+            },
+            "TracingConfig": {
+                "Mode": "Active"
+            },
+            "RevisionId": "fa55f6d9-6caf-4476-8eeb-5c26e33d330a",
+            "PackageType": "Zip",
+            "Architectures": [
+                "x86_64"
+            ],
+            "EphemeralStorage": {
+                "Size": 512
+            },
+            "SnapStart": {
+                "ApplyOn": "None",
+                "OptimizationStatus": "Off"
+            },
+            "LoggingConfig": {
+                "LogFormat": "Text",
+                "LogGroup": "/aws/lambda/get-presigned-upload-url-dev"
+            }
+        },
+        {
+            "FunctionName": "image-detection-dev",
+            "FunctionArn": "arn:aws:lambda:ap-southeast-2:825179952819:function:image-detection-dev",
+            "Runtime": "nodejs20.x",
+            "Role": "arn:aws:iam::825179952819:role/powertoolsworkshopinfra-imagedetectionfunctionscons-nNsLLgAOzooU",
+            "Handler": "index.handler",
+            "CodeSize": 755164,
+            "Description": "",
+            "Timeout": 30,
+            "MemorySize": 256,
+            "LastModified": "2024-04-14T03:23:04.168+0000",
+            "CodeSha256": "2jJ0fANwEyQsxZZ1ngaIcZSLEsWqRudrtEl8RVqfQDE=",
+            "Version": "$LATEST",
+            "Environment": {
+                "Variables": {
+                    "POWERTOOLS_SERVICE_NAME": "media-processing-app",
+                    "API_URL_HOST": "{\"url\":\"https://emno4n41sh.execute-api.ap-southeast-2.amazonaws.com/prod/\"}",
+                    "BUCKET_NAME_FILES": "media-files-825179952819-dev",
+                    "API_KEY_SECRET_NAME": "/dev/reporting-service/api-key",
+                    "POWERTOOLS_METRICS_NAMESPACE": "AnyCompany",
+                    "ENVIRONMENT": "dev",
+                    "POWERTOOLS_LOGGER_LOG_LEVEL": "DEBUG",
+                    "NODE_OPTIONS": "--enable-source-maps",
+                    "POWERTOOLS_LOGGER_LOG_EVENT": "TRUE",
+                    "API_URL_PARAMETER_NAME": "/dev/reporting-service/api-url",
+                    "AWS_ACCOUNT_ID": "825179952819",
+                    "AWS_NODEJS_CONNECTION_REUSE_ENABLED": "1",
+                    "TABLE_NAME_FILES": "media-processing-app-files-dev",
+                    "POWERTOOLS_LOGGER_SAMPLE_RATE": "1"
+                }
+            },
+            "TracingConfig": {
+                "Mode": "Active"
+            },
+            "RevisionId": "c6f32044-339d-49fb-b8d6-700a35752783",
+            "PackageType": "Zip",
+            "Architectures": [
+                "x86_64"
+            ],
+            "EphemeralStorage": {
+                "Size": 512
+            },
+            "SnapStart": {
+                "ApplyOn": "None",
+                "OptimizationStatus": "Off"
+            },
+            "LoggingConfig": {
+                "LogFormat": "Text",
+                "LogGroup": "/aws/lambda/image-detection-dev"
+            }
+        },
+        {
+            "FunctionName": "powertoolsworkshopinfra-CustomS3AutoDeleteObjectsC-OMvZx0s86ObZ",
+            "FunctionArn": "arn:aws:lambda:ap-southeast-2:825179952819:function:powertoolsworkshopinfra-CustomS3AutoDeleteObjectsC-OMvZx0s86ObZ",
+            "Runtime": "nodejs18.x",
+            "Role": "arn:aws:iam::825179952819:role/powertoolsworkshopinfra-CustomS3AutoDeleteObjectsCu-AnQAlSgLpOp2",
+            "Handler": "index.handler",
+            "CodeSize": 2146,
+            "Description": "Lambda function for auto-deleting objects in website-825179952819-dev S3 bucket.",
+            "Timeout": 900,
+            "MemorySize": 128,
+            "LastModified": "2024-04-14T03:22:53.701+0000",
+            "CodeSha256": "2UlQIogaINH6x+awH0VcYKr91ye+WwKoeXx4Ela0qko=",
+            "Version": "$LATEST",
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "RevisionId": "0ddf4b12-62c4-4395-9ddd-63e7c4247348",
+            "PackageType": "Zip",
+            "Architectures": [
+                "x86_64"
+            ],
+            "EphemeralStorage": {
+                "Size": 512
+            },
+            "SnapStart": {
+                "ApplyOn": "None",
+                "OptimizationStatus": "Off"
+            },
+            "LoggingConfig": {
+                "LogFormat": "Text",
+                "LogGroup": "/aws/lambda/powertoolsworkshopinfra-CustomS3AutoDeleteObjectsC-OMvZx0s86ObZ"
+            }
+        },
+        {
+            "FunctionName": "powertuner-powerTuner-9UUP3UW8BMFP-optimizer-2yk44bZI5Fvn",
+            "FunctionArn": "arn:aws:lambda:ap-southeast-2:825179952819:function:powertuner-powerTuner-9UUP3UW8BMFP-optimizer-2yk44bZI5Fvn",
+            "Runtime": "nodejs20.x",
+            "Role": "arn:aws:iam::825179952819:role/powertuner-powerTuner-9UUP3UW8BMFP-optimizerRole-ZWZAE4AiROuF",
+            "Handler": "optimizer.handler",
+            "CodeSize": 11459,
+            "Description": "",
+            "Timeout": 300,
+            "MemorySize": 128,
+            "LastModified": "2024-04-14T03:30:36.104+0000",
+            "CodeSha256": "n5mYF9ALoeH3BJym2Y+w+IwymeFBAmscHi2BhHtfcmw=",
+            "Version": "$LATEST",
+            "Environment": {
+                "Variables": {
+                    "minRAM": "128",
+                    "defaultPowerValues": "128,256,512,1024,1536,3008",
+                    "baseCosts": "{\"x86_64\": {\"ap-east-1\":2.9e-9,\"af-south-1\":2.8e-9,\"me-south-1\":2.6e-9,\"eu-south-1\":2.4e-9,\"ap-northeast-3\":2.7e-9,\"cn-north-1\":0.0000000142,\"cn-northwest-1\":0.0000000142,\"default\":2.1e-9}, \"arm64\": {\"default\":1.7e-9}}",
+                    "sfCosts": "{\"default\": 0.000025,\"us-gov-west-1\": 0.00003,\"ap-northeast-2\": 0.0000271,\"eu-south-1\": 0.00002625,\"af-south-1\": 0.00002975,\"us-west-1\": 0.0000279,\"eu-west-3\": 0.0000297,\"ap-east-1\": 0.0000275,\"me-south-1\": 0.0000275,\"ap-south-1\": 0.0000285,\"us-gov-east-1\": 0.00003,\"sa-east-1\": 0.0000375,\"cn-north-1\":0.0001891,\"cn-northwest-1\":0.0001891}",
+                    "visualizationURL": "https://lambda-power-tuning.show/"
+                }
+            },
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "RevisionId": "8b9b392c-db2d-4514-a24d-d72a7bf4a17a",
+            "Layers": [
+                {
+                    "Arn": "arn:aws:lambda:ap-southeast-2:825179952819:layer:AWS-SDK-v3:2",
+                    "CodeSize": 12864
+                }
+            ],
+            "PackageType": "Zip",
+            "Architectures": [
+                "x86_64"
+            ],
+            "EphemeralStorage": {
+                "Size": 512
+            },
+            "SnapStart": {
+                "ApplyOn": "None",
+                "OptimizationStatus": "Off"
+            },
+            "LoggingConfig": {
+                "LogFormat": "Text",
+                "LogGroup": "/aws/lambda/powertuner-powerTuner-9UUP3UW8BMFP-optimizer-2yk44bZI5Fvn"
+            }
+        },
+        {
+            "FunctionName": "get-presigned-download-url-dev",
+            "FunctionArn": "arn:aws:lambda:ap-southeast-2:825179952819:function:get-presigned-download-url-dev",
+            "Runtime": "nodejs20.x",
+            "Role": "arn:aws:iam::825179952819:role/powertoolsworkshopinfra-contenthubrepofunctionscons-tGHhekHWo1nS",
+            "Handler": "index.handler",
+            "CodeSize": 254703,
+            "Description": "",
+            "Timeout": 30,
+            "MemorySize": 256,
+            "LastModified": "2024-04-14T03:22:55.765+0000",
+            "CodeSha256": "teAMyEJw1Yjc41WCZuMwNAntHBlLoM+9OHzEyvvGYek=",
+            "Version": "$LATEST",
+            "Environment": {
+                "Variables": {
+                    "POWERTOOLS_LOGGER_LOG_EVENT": "TRUE",
+                    "POWERTOOLS_SERVICE_NAME": "media-processing-app",
+                    "BUCKET_NAME_FILES": "media-files-825179952819-dev",
+                    "POWERTOOLS_METRICS_NAMESPACE": "AnyCompany",
+                    "ENVIRONMENT": "dev",
+                    "POWERTOOLS_LOGGER_LOG_LEVEL": "DEBUG",
+                    "NODE_OPTIONS": "--enable-source-maps",
+                    "AWS_ACCOUNT_ID": "825179952819",
+                    "AWS_NODEJS_CONNECTION_REUSE_ENABLED": "1",
+                    "INDEX_NAME_FILES_BY_USER": "filesByUserIndex",
+                    "TABLE_NAME_FILES": "media-processing-app-files-dev",
+                    "POWERTOOLS_LOGGER_SAMPLE_RATE": "1"
+                }
+            },
+            "TracingConfig": {
+                "Mode": "Active"
+            },
+            "RevisionId": "b754e526-a189-47d2-a511-448af0b10592",
+            "PackageType": "Zip",
+            "Architectures": [
+                "x86_64"
+            ],
+            "EphemeralStorage": {
+                "Size": 512
+            },
+            "SnapStart": {
+                "ApplyOn": "None",
+                "OptimizationStatus": "Off"
+            },
+            "LoggingConfig": {
+                "LogFormat": "Text",
+                "LogGroup": "/aws/lambda/get-presigned-download-url-dev"
+            }
+        },
+        {
+            "FunctionName": "s3TenantCostsCloudWatch",
+            "FunctionArn": "arn:aws:lambda:ap-southeast-2:825179952819:function:s3TenantCostsCloudWatch",
+            "Runtime": "python3.10",
+            "Role": "arn:aws:iam::825179952819:role/service-role/s3TenantCostsCloudWatch-role-hq9a2gos",
+            "Handler": "lambda_function.lambda_handler",
+            "CodeSize": 574,
+            "Description": "",
+            "Timeout": 3,
+            "MemorySize": 128,
+            "LastModified": "2023-05-17T13:22:48.000+0000",
+            "CodeSha256": "MSmkSrUYJwmjupc8VcJcHy1Q6XvsceXBZL8N5te9m94=",
+            "Version": "$LATEST",
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "RevisionId": "b7691a66-2805-44d5-a93e-42d564e517b7",
+            "PackageType": "Zip",
+            "Architectures": [
+                "arm64"
+            ],
+            "EphemeralStorage": {
+                "Size": 512
+            },
+            "SnapStart": {
+                "ApplyOn": "None",
+                "OptimizationStatus": "Off"
+            },
+            "LoggingConfig": {
+                "LogFormat": "Text",
+                "LogGroup": "/aws/lambda/s3TenantCostsCloudWatch"
+            }
+        },
+        {
+            "FunctionName": "thumbnail-generator-dev",
+            "FunctionArn": "arn:aws:lambda:ap-southeast-2:825179952819:function:thumbnail-generator-dev",
+            "Runtime": "nodejs20.x",
+            "Role": "arn:aws:iam::825179952819:role/powertoolsworkshopinfra-thumbnailgeneratorfunctions-EdvfbPy1WtlB",
+            "Handler": "index.handler",
+            "CodeSize": 1253211,
+            "Description": "",
+            "Timeout": 30,
+            "MemorySize": 256,
+            "LastModified": "2024-04-14T03:22:58.294+0000",
+            "CodeSha256": "dOrQAnmCqP0xAvp3Ot19uUnUvYeGi9KxBxS91v9Sfzs=",
+            "Version": "$LATEST",
+            "Environment": {
+                "Variables": {
+                    "POWERTOOLS_SERVICE_NAME": "media-processing-app",
+                    "BUCKET_NAME_FILES": "media-files-825179952819-dev",
+                    "POWERTOOLS_METRICS_NAMESPACE": "AnyCompany",
+                    "ENVIRONMENT": "dev",
+                    "POWERTOOLS_LOGGER_LOG_LEVEL": "DEBUG",
+                    "NODE_OPTIONS": "--enable-source-maps",
+                    "IDEMPOTENCY_TABLE_NAME": "idempotency-thumbnail-generator-dev",
+                    "POWERTOOLS_LOGGER_LOG_EVENT": "TRUE",
+                    "APPSYNC_ENDPOINT": "https://jblbk3d4pzfltcittxibdnweai.appsync-api.ap-southeast-2.amazonaws.com/graphql",
+                    "AWS_ACCOUNT_ID": "825179952819",
+                    "AWS_NODEJS_CONNECTION_REUSE_ENABLED": "1",
+                    "TABLE_NAME_FILES": "media-processing-app-files-dev",
+                    "POWERTOOLS_LOGGER_SAMPLE_RATE": "1"
+                }
+            },
+            "TracingConfig": {
+                "Mode": "Active"
+            },
+            "RevisionId": "feef5eec-1110-4bdf-87af-9de3d010cd03",
+            "PackageType": "Zip",
+            "Architectures": [
+                "x86_64"
+            ],
+            "EphemeralStorage": {
+                "Size": 512
+            },
+            "SnapStart": {
+                "ApplyOn": "None",
+                "OptimizationStatus": "Off"
+            },
+            "LoggingConfig": {
+                "LogFormat": "Text",
+                "LogGroup": "/aws/lambda/thumbnail-generator-dev"
+            }
+        },
+        {
+            "FunctionName": "powertuner-powerTuner-9UUP3UW8BMFP-cleaner-y8P4CPRG6j4N",
+            "FunctionArn": "arn:aws:lambda:ap-southeast-2:825179952819:function:powertuner-powerTuner-9UUP3UW8BMFP-cleaner-y8P4CPRG6j4N",
+            "Runtime": "nodejs20.x",
+            "Role": "arn:aws:iam::825179952819:role/powertuner-powerTuner-9UUP3UW8BMFP-cleanerRole-NeE2placTCCc",
+            "Handler": "cleaner.handler",
+            "CodeSize": 11459,
+            "Description": "",
+            "Timeout": 300,
+            "MemorySize": 128,
+            "LastModified": "2024-04-14T03:30:35.931+0000",
+            "CodeSha256": "n5mYF9ALoeH3BJym2Y+w+IwymeFBAmscHi2BhHtfcmw=",
+            "Version": "$LATEST",
+            "Environment": {
+                "Variables": {
+                    "minRAM": "128",
+                    "defaultPowerValues": "128,256,512,1024,1536,3008",
+                    "baseCosts": "{\"x86_64\": {\"ap-east-1\":2.9e-9,\"af-south-1\":2.8e-9,\"me-south-1\":2.6e-9,\"eu-south-1\":2.4e-9,\"ap-northeast-3\":2.7e-9,\"cn-north-1\":0.0000000142,\"cn-northwest-1\":0.0000000142,\"default\":2.1e-9}, \"arm64\": {\"default\":1.7e-9}}",
+                    "sfCosts": "{\"default\": 0.000025,\"us-gov-west-1\": 0.00003,\"ap-northeast-2\": 0.0000271,\"eu-south-1\": 0.00002625,\"af-south-1\": 0.00002975,\"us-west-1\": 0.0000279,\"eu-west-3\": 0.0000297,\"ap-east-1\": 0.0000275,\"me-south-1\": 0.0000275,\"ap-south-1\": 0.0000285,\"us-gov-east-1\": 0.00003,\"sa-east-1\": 0.0000375,\"cn-north-1\":0.0001891,\"cn-northwest-1\":0.0001891}",
+                    "visualizationURL": "https://lambda-power-tuning.show/"
+                }
+            },
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "RevisionId": "6f6fb435-a78a-4e17-8335-d389e47a13e8",
+            "Layers": [
+                {
+                    "Arn": "arn:aws:lambda:ap-southeast-2:825179952819:layer:AWS-SDK-v3:2",
+                    "CodeSize": 12864
+                }
+            ],
+            "PackageType": "Zip",
+            "Architectures": [
+                "x86_64"
+            ],
+            "EphemeralStorage": {
+                "Size": 512
+            },
+            "SnapStart": {
+                "ApplyOn": "None",
+                "OptimizationStatus": "Off"
+            },
+            "LoggingConfig": {
+                "LogFormat": "Text",
+                "LogGroup": "/aws/lambda/powertuner-powerTuner-9UUP3UW8BMFP-cleaner-y8P4CPRG6j4N"
+            }
+        },
+        {
+            "FunctionName": "event_bus_s3_created",
+            "FunctionArn": "arn:aws:lambda:ap-southeast-2:825179952819:function:event_bus_s3_created",
+            "Runtime": "python3.8",
+            "Role": "arn:aws:iam::825179952819:role/service-role/event_bus_s3_created-role-vtnmgitg",
+            "Handler": "lambda_function.lambda_handler",
+            "CodeSize": 1134,
+            "Description": "",
+            "Timeout": 3,
+            "MemorySize": 128,
+            "LastModified": "2022-11-21T22:30:12.000+0000",
+            "CodeSha256": "/KIWTpgvWme0ue8MHbmAedj2FXm0eErkV4Gp0ykdv24=",
+            "Version": "$LATEST",
+            "Environment": {
+                "Variables": {
+                    "VERSION_THRESHOLD": "5"
+                }
+            },
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "RevisionId": "678b6adb-532f-4f73-9c00-53a4d59acecc",
+            "PackageType": "Zip",
+            "Architectures": [
+                "arm64"
+            ],
+            "EphemeralStorage": {
+                "Size": 512
+            },
+            "SnapStart": {
+                "ApplyOn": "None",
+                "OptimizationStatus": "Off"
+            },
+            "LoggingConfig": {
+                "LogFormat": "Text",
+                "LogGroup": "/aws/lambda/event_bus_s3_created"
+            }
+        },
+        {
+            "FunctionName": "powertuner-powerTuner-9UUP3UW8BMFP-executor-MUE0bnqsKb9G",
+            "FunctionArn": "arn:aws:lambda:ap-southeast-2:825179952819:function:powertuner-powerTuner-9UUP3UW8BMFP-executor-MUE0bnqsKb9G",
+            "Runtime": "nodejs20.x",
+            "Role": "arn:aws:iam::825179952819:role/powertuner-powerTuner-9UUP3UW8BMFP-executorRole-8WQ0LwAvq21X",
+            "Handler": "executor.handler",
+            "CodeSize": 11459,
+            "Description": "",
+            "Timeout": 300,
+            "MemorySize": 128,
+            "LastModified": "2024-04-14T03:30:36.238+0000",
+            "CodeSha256": "n5mYF9ALoeH3BJym2Y+w+IwymeFBAmscHi2BhHtfcmw=",
+            "Version": "$LATEST",
+            "Environment": {
+                "Variables": {
+                    "minRAM": "128",
+                    "defaultPowerValues": "128,256,512,1024,1536,3008",
+                    "baseCosts": "{\"x86_64\": {\"ap-east-1\":2.9e-9,\"af-south-1\":2.8e-9,\"me-south-1\":2.6e-9,\"eu-south-1\":2.4e-9,\"ap-northeast-3\":2.7e-9,\"cn-north-1\":0.0000000142,\"cn-northwest-1\":0.0000000142,\"default\":2.1e-9}, \"arm64\": {\"default\":1.7e-9}}",
+                    "sfCosts": "{\"default\": 0.000025,\"us-gov-west-1\": 0.00003,\"ap-northeast-2\": 0.0000271,\"eu-south-1\": 0.00002625,\"af-south-1\": 0.00002975,\"us-west-1\": 0.0000279,\"eu-west-3\": 0.0000297,\"ap-east-1\": 0.0000275,\"me-south-1\": 0.0000275,\"ap-south-1\": 0.0000285,\"us-gov-east-1\": 0.00003,\"sa-east-1\": 0.0000375,\"cn-north-1\":0.0001891,\"cn-northwest-1\":0.0001891}",
+                    "visualizationURL": "https://lambda-power-tuning.show/"
+                }
+            },
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "RevisionId": "d48ded82-6502-4f93-a0ce-107fc4b2a914",
+            "Layers": [
+                {
+                    "Arn": "arn:aws:lambda:ap-southeast-2:825179952819:layer:AWS-SDK-v3:2",
+                    "CodeSize": 12864
+                }
+            ],
+            "PackageType": "Zip",
+            "Architectures": [
+                "x86_64"
+            ],
+            "EphemeralStorage": {
+                "Size": 512
+            },
+            "SnapStart": {
+                "ApplyOn": "None",
+                "OptimizationStatus": "Off"
+            },
+            "LoggingConfig": {
+                "LogFormat": "Text",
+                "LogGroup": "/aws/lambda/powertuner-powerTuner-9UUP3UW8BMFP-executor-MUE0bnqsKb9G"
+            }
+        }
+    ]
+}

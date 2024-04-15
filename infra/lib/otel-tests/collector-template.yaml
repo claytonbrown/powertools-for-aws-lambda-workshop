@@ -1,9 +1,19 @@
+# REF : https://aws-otel.github.io/docs/getting-started/lambda
+# Docs - https://github.com/SumoLogic/sumologic-otel-lambda
+  # https://github.com/SumoLogic/sumologic-otel-lambda/blob/release-nodejs-v1.17.1/nodejs/README.md
+  # arn:aws:lambda:ap-southeast-2:663229565520:layer:sumologic-otel-lambda-nodejs-x86_64-v1-17-1:1
+  # https://github.com/SumoLogic/sumologic-otel-lambda/blob/release-python-v1.20.0/python/README.md
+  # https://github.com/SumoLogic/sumologic-otel-lambda/blob/release-java-v1.30.1/java/README.md
 # Docs - https://docs.honeycomb.io/getting-data-in/otel-collector/
+
 receivers:
   otlp:
     protocols:
       grpc:
+        endpoint: "localhost:4317"
       http:
+        endpoint: "localhost:4318"
+
 
 exporters:
   # https://dalejsalter.com/post/8afd46ad-7da2-4b2a-9cb5-9e5ae4fe6cc2/cdk-lambda-otel-honeycomb
@@ -22,9 +32,13 @@ exporters:
     loglevel: debug
 
 service:
-  extensions: []
   pipelines:
     traces:
       receivers: [otlp]
-      processors: []
-      exporters: [awsxray] # [otlp/traces]
+      exporters: [awsxray]
+    metrics:
+      receivers: [otlp]
+      exporters: [logging]
+  telemetry:
+    metrics:
+      address: localhost:8888

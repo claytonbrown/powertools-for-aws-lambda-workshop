@@ -27,7 +27,7 @@ export class TheLambdaPowerTunerStack extends cdk.Stack {
       parameters: {
         "lambdaResource": lambdaResource,
         "PowerValues": powerValues,
-        //"visualizationURL": visualizationURL,
+        "visualizationURL": "http://localhost:3000",
         "totalExecutionTimeout": totalExecutionTimeout,
         //"permissionsBoundary": permissionsBoundary,
         //"payloadS3Bucket": payloadS3Bucket,

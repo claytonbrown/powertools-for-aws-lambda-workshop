@@ -43,6 +43,8 @@
     "ts-node": "^10.9.1"
   },
   "dependencies": {
+    "@opentelemetry/api": "^1.8.0",
+    "@opentelemetry/sdk-trace-base": "^1.23.0",
     "@types/node": "^20.5.9"
   },
   "overrides": {
