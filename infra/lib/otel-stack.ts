@@ -9,11 +9,31 @@ export class ServerlessCdkOtelStack extends cdk.Stack {
   constructor(scope: Construct, id: string, props?: cdk.StackProps) {
     super(scope, id, props);
 
+    // REF: https://aws-otel.github.io/docs/getting-started/lambda
+
     new NodeHelloWorld(this, `${Runtime.NODEJS_18_X}-${Architecture.ARM_64}`,{ 'arch': Architecture.ARM_64, 'runtime': Runtime.NODEJS_18_X });
     new NodeHelloWorld(this, `${Runtime.NODEJS_18_X}-${Architecture.X86_64}`,{ 'arch': Architecture.X86_64, 'runtime': Runtime.NODEJS_18_X });
 
-    // new PythonHelloWorld(this, `${Runtime.PYTHON_3_12}-${Architecture.ARM_64}`,{ 'arch': Architecture.ARM_64, 'runtime': Runtime.PYTHON_3_12 });
-    // new PythonHelloWorld(this, `${Runtime.PYTHON_3_12}-${Architecture.X86_64}`,{ 'arch': Architecture.X86_64, 'runtime': Runtime.PYTHON_3_12 });
+    new NodeHelloWorld(this, `${Runtime.NODEJS_20_X}-${Architecture.ARM_64}`,{ 'arch': Architecture.ARM_64, 'runtime': Runtime.NODEJS_20_X });
+    new NodeHelloWorld(this, `${Runtime.NODEJS_20_X}-${Architecture.X86_64}`,{ 'arch': Architecture.X86_64, 'runtime': Runtime.NODEJS_20_X });
+
+
+    // REF: https://aws-otel.github.io/docs/getting-started/lambda/lambda-python
+    // The Lambda layer supports Python [3.8, 3.9, 3.10 and 3.11] Lambda runtimes
+
+    // new PythonHelloWorld(this, `${Runtime.PYTHON_3_8}-${Architecture.ARM_64}`,{ 'arch': Architecture.ARM_64, 'runtime': Runtime.PYTHON_3_8 });
+    // new PythonHelloWorld(this, `${Runtime.PYTHON_3_8}-${Architecture.X86_64}`,{ 'arch': Architecture.X86_64, 'runtime': Runtime.PYTHON_3_8 });
+
+    // new PythonHelloWorld(this, `${Runtime.PYTHON_3_9}-${Architecture.ARM_64}`,{ 'arch': Architecture.ARM_64, 'runtime': Runtime.PYTHON_3_9 });
+    // new PythonHelloWorld(this, `${Runtime.PYTHON_3_9}-${Architecture.X86_64}`,{ 'arch': Architecture.X86_64, 'runtime': Runtime.PYTHON_3_9 });
+
+    // new PythonHelloWorld(this, `${Runtime.PYTHON_3_10}-${Architecture.ARM_64}`,{ 'arch': Architecture.ARM_64, 'runtime': Runtime.PYTHON_3_10 });
+    // new PythonHelloWorld(this, `${Runtime.PYTHON_3_10}-${Architecture.X86_64}`,{ 'arch': Architecture.X86_64, 'runtime': Runtime.PYTHON_3_10 });
+
+    // new PythonHelloWorld(this, `${Runtime.PYTHON_3_11}-${Architecture.ARM_64}`,{ 'arch': Architecture.ARM_64, 'runtime': Runtime.PYTHON_3_11 });
+    // new PythonHelloWorld(this, `${Runtime.PYTHON_3_11}-${Architecture.X86_64}`,{ 'arch': Architecture.X86_64, 'runtime': Runtime.PYTHON_3_11 });
+
+
 
     // Example of STACK level supressions
     NagSuppressions.addStackSuppressions(this, [

@@ -24,6 +24,8 @@ export class TheLambdaPowerTunerStack extends cdk.Stack {
         applicationId: 'arn:aws:serverlessrepo:us-east-1:451282441545:applications/aws-lambda-power-tuning',
         semanticVersion: '4.3.4'
       },
+
+      // REF:
       parameters: {
         "lambdaResource": lambdaResource,
         "PowerValues": powerValues,

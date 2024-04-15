@@ -8,7 +8,7 @@ s3 = boto3.resource("s3")
 # lambda function
 def lambda_handler(event, context):
 
-    requests.get("http://httpbin.org/")
+    requests.get("http://aws.amazon.com/")
 
     for bucket in s3.buckets.all():
         print(bucket.name)

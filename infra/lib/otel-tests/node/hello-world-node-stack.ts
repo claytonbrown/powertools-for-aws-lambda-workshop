@@ -19,7 +19,7 @@ export class NodeHelloWorld extends Construct {
   constructor(scope: Construct, id: string, props: NodeHelloWorldProps) {
     super(scope, id);
 
-    const table = new Table(scope, `ddb-otel-${props.arch}-${props.runtime}`, {
+    const table = new Table(scope, `ddb-otel-${props.runtime}-${props.arch}`, {
       billingMode: BillingMode.PAY_PER_REQUEST,
       pointInTimeRecovery: true,
       partitionKey: {
@@ -33,7 +33,8 @@ export class NodeHelloWorld extends Construct {
       architecture: props.arch,
       memorySize: 1024,
       environment: {
-        DDB_TABLE_NAME: table.tableName
+        DDB_TABLE_NAME: table.tableName,
+        FUNCTION_NAME: `${props.runtime}-${props.arch}`
       },
       layers: [],
       tracing: lambda.Tracing.DISABLED,
@@ -45,7 +46,8 @@ export class NodeHelloWorld extends Construct {
       architecture: props.arch,
       memorySize: 1024,
       environment: {
-        DDB_TABLE_NAME: table.tableName
+        DDB_TABLE_NAME: table.tableName,
+        FUNCTION_NAME: `${props.runtime}-${props.arch}`
       },
       layers: [],
       tracing: lambda.Tracing.DISABLED,
@@ -62,7 +64,8 @@ export class NodeHelloWorld extends Construct {
       },
       memorySize: 1024,
       environment: {
-        DDB_TABLE_NAME: table.tableName
+        DDB_TABLE_NAME: table.tableName,
+        FUNCTION_NAME: `${props.runtime}-${props.arch}`
       },
       layers: [],
       tracing: lambda.Tracing.DISABLED,
@@ -85,7 +88,8 @@ export class NodeHelloWorld extends Construct {
         OTEL_SERVICE_NAME: 'hello-world-service',
 
         // Standard environment variable
-        DDB_TABLE_NAME: table.tableName
+        DDB_TABLE_NAME: table.tableName,
+        FUNCTION_NAME: `${props.runtime}-${props.arch}`
       },
       layers: [
         // From https://github.com/aws-observability/aws-otel-lambda
