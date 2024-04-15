@@ -10,7 +10,7 @@ STATE_MACHINE_ARN=$(aws cloudformation describe-stacks --stack-name $STACK_NAME 
 echo "State Machine ARN: $STATE_MACHINE_ARN"
 
 
-for f in ./input/execution-input-*.json; do
+for f in ./input/*.json; do
     echo -e "\n"
     echo -n "Executing [$f] ..."
 
@@ -41,7 +41,9 @@ for f in ./input/execution-input-*.json; do
             echo $STATUS
             echo "Execution output: "
             # retrieve output
-            aws stepfunctions describe-execution --execution-arn $EXECUTION_ARN --query 'output' --output text | jq .
+            OUTPUT=$(aws stepfunctions describe-execution --execution-arn $EXECUTION_ARN --query 'output' --output text)
+            echo $OUTPUT | jq .
+            echo $OUTPUT | jq . > "${f/input/output}"
             break
         fi
     done

@@ -1,0 +1,42 @@
+{
+  "power": 512,
+  "cost": 0.0000013860000000000002,
+  "duration": 164.33333333333334,
+  "stateMachine": {
+    "executionCost": 0.00030,
+    "lambdaCost": 0.00010672095000000001,
+    "visualization": "http://localhost:3000#gAAAAQACAAQABsAL;qwo0RFVVqkNVVSRDVVWmQlVVjEJVVYRC;FDjLNQQ6wDWZBro1dmi9NXIk8DVh5F02"
+  },
+  "stats": [
+    {
+      "value": 128,
+      "averagePrice": 0.0000015141,
+      "averageDuration": 720.1666666666666
+    },
+    {
+      "value": 256,
+      "averagePrice": 0.0000014322,
+      "averageDuration": 340.6666666666667
+    },
+    {
+      "value": 512,
+      "averagePrice": 0.0000013860000000000002,
+      "averageDuration": 164.33333333333334
+    },
+    {
+      "value": 1024,
+      "averagePrice": 0.0000014112000000000001,
+      "averageDuration": 83.16666666666667
+    },
+    {
+      "value": 1536,
+      "averagePrice": 0.0000017892000000000002,
+      "averageDuration": 70.16666666666667
+    },
+    {
+      "value": 3008,
+      "averagePrice": 0.0000033064500000000003,
+      "averageDuration": 66.16666666666667
+    }
+  ]
+}

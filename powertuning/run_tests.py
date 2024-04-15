@@ -1,13 +1,13 @@
 import boto3
 import json
 import os
-import asyncio
-import aiohttp
+
+OVERWRITE = False
 
 
 client = boto3.client("lambda")
+session = aioboto3.Session()
 
-OVERWRITE = False
 
 test_plan = []
 fn_prefix =  "lambda-otel-test-"
@@ -47,3 +47,10 @@ for fn in client.list_functions()['Functions']:
           f.write(json.dumps(test,indent=2))
           f.close()
           print(f"Written: {test_plan}")
+
+async def main():
+
+    async with session.resource("s3") as s3:
+        bucket = await s3.Bucket('mybucket')  # <----------------
+        async for s3_object in bucket.objects.all():
+            print(s3_object)
